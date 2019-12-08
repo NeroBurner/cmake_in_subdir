@@ -1,0 +1,14 @@
+#ifndef CIS_HPP
+#define CIS_HPP
+
+#include <string>
+
+namespace cmake_in_subdir
+{
+const std::string CIS_VERSION = "@CIS_VERSION@";
+const int CIS_VERSION_MAJOR = @CIS_VERSION_MAJOR@;
+const int CIS_VERSION_MINOR = @CIS_VERSION_MINOR@;
+const int CIS_VERSION_PATCH = @CIS_VERSION_PATCH@;
+}
+
+#endif // CIS_HPP
